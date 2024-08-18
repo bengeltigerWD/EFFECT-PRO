@@ -1,0 +1,86 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color:#0b0101;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.editor-container {
+    background-color: #FF3399;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.canvas-container {
+    margin-bottom: 20px;
+    background-color: #000;
+    border: 1px solid #444;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+canvas {
+    max-width: 100%;
+}
+
+.editor-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.menu-btn {
+    background-color: #333;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+}
+
+.menu-btn:hover {
+    background-color: #555;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.controls input,
+.controls select {
+    width: 100%;
+    max-width: 300px;
+    margin: 5px 0;
+}
+
+button#download {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button#download:hover {
+    background-color: #0056b3;
+}
