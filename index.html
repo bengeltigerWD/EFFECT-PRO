@@ -1,44 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="bn">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced Photo Editor</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>১৯৭২-১৯৭৫: বঙ্গবন্ধুর শাসনামলে বিতর্ক ও ঘটনাপ্রবাহ</title>
+    <style>
+        body {
+            font-family: 'SolaimanLipi', 'Siyam Rupali', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2980b9;
+            margin-top: 30px;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+        }
+        .timeline {
+            position: relative;
+            margin: 40px 0;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 15px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #3498db;
+        }
+        .event {
+            position: relative;
+            margin-bottom: 30px;
+            padding-left: 40px;
+        }
+        .event::before {
+            content: '';
+            position: absolute;
+            left: 10px;
+            top: 5px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #2980b9;
+            border: 2px solid #3498db;
+        }
+        .event h3 {
+            margin-top: 0;
+            color: #16a085;
+        }
+        .criticism-box {
+            background-color: #f2dede;
+            border-left: 4px solid #a94442;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 0 4px 4px 0;
+        }
+        .footer {
+            margin-top: 50px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #7f8c8d;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+        .highlight {
+            background-color: #ffffcc;
+            padding: 2px 4px;
+        }
+    </style>
 </head>
 <body>
- 
-    <div class="editor-container">
+    <h1>১৯৭২-১৯৭৫: বঙ্গবন্ধুর শাসনামলে বিতর্ক ও ঘটনাপ্রবাহ</h1>
+
+    <div class="timeline">
+        <div class="event">
+            <h3>১৯৭২: স্বাধীনতা-পরবর্তী চ্যালেঞ্জ</h3>
+            <p>১৯৭১ সালের মুক্তিযুদ্ধের পর ১৯৭২ সালে বঙ্গবন্ধু শেখ মুজিবুর রহমান বাংলাদেশের প্রথম প্রধানমন্ত্রী হন। নতুন দেশের পুনর্গঠনে তিনি দ্রুত সংবিধান প্রণয়ন করেন, যেটি ১৬ ডিসেম্বর ১৯৭২ থেকে কার্যকর হয়।</p>
+            
+            <div class="criticism-box">
+                <h4>সমালোচনা:</h4>
+                <ul>
+                    <li>জাতীয় রক্ষী বাহিনী (জেআরবি) গঠন যা নিজেদের আনুগত্য শপথের কারণে সমালোচিত হয়</li>
+                    <li>দলের অভ্যন্তরে ব্যাপক দুর্নীতি ও আত্মীয়তন্ত্রের (নেপোটিজম) অভিযোগ</li>
+                    <li>প্রশাসন ও রক্ষীবাহিনীতে ক্ষমতার অপব্যবহারের অভিযোগ</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="event">
+            <h3>১৯৭৩: প্রথম নির্বাচন ও শক্তি দ্বন্দ্ব</h3>
+            <p>৭ মার্চ ১৯৭৩ সালে অনুষ্ঠিত প্রথম সাধারণ নির্বাচনে আওয়ামী লীগ ৩০০ আসনের ২৯৩টিতে বিজয়ী হয়।</p>
+            
+            <div class="criticism-box">
+                <h4>সমালোচনা:</h4>
+                <ul>
+                    <li>নির্বাচনে ব্যাপক ভোটার জালিয়াতি ও অনিয়মের অভিযোগ</li>
+                    <li>বিরোধী প্রার্থীদের মনোনয়নপত্র বাতিল ও ভোটকেন্দ্রে হয়রানির অভিযোগ</li>
+                    <li>১৭ মার্চ ১৯৭৫-এ পল্টনে সরকারবিরোধী বিক্ষোভে রক্ষীবাহিনীর গুলিতে ৫০ জন নিহত</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="event">
+            <h3>১৯৭৪: মহাদুর্ভিক্ষ</h3>
+            <p>১৯৭৪ সালের গ্রীষ্মে বাংলাদেশ একটি মারাত্মক দুর্ভিক্ষের সম্মুখীন হয়। সরকারি হিসাবে ২৭ হাজার মানুষ মারা গেলেও বিশেষজ্ঞরা প্রায় ৩.৮–৯.৯ লক্ষ মৃত্যুর হিসাব দেন।</p>
+            
+            <div class="criticism-box">
+                <h4>সমালোচনা:</h4>
+                <ul>
+                    <li>সরকারি অপচয়, খাদ্যশস্য পাচার ও বণ্টন ব্যবস্থায় ব্যর্থতা</li>
+                    <li>দুর্ভিক্ষের সময় দুর্নীতি ও কালোবাজারি বৃদ্ধি</li>
+                    <li>দুর্ভিক্ষের ছবি ও তথ্য সরকারি মিডিয়ায় প্রকাশে নিষেধাজ্ঞা</li>
+                    <li>দুর্ভিক্ষকালীন সময়ে শেখ কামালের বিলাসবহুল বিবাহ অনুষ্ঠান</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="event">
+            <h3>১৯৭৫: একদলীয় শাসন ও পতন</h3>
+            <p>৬ জানুয়ারি ১৯৭৫ তারিখে বহুদলীয় ব্যবস্থাকে বিলুপ্ত করে প্রেসিডেন্সি অধীনে একদলীয় ব্যবস্থা (BAKSAL) প্রতিষ্ঠা করা হয়।</p>
+            
+            <div class="criticism-box">
+                <h4>সমালোচনা:</h4>
+                <ul>
+                    <li>গণতান্ত্রিক প্রতিষ্ঠান ও সংসদ বিলুপ্তকরণ</li>
+                    <li>মিডিয়া ও বিরোধী মত দমন</li>
+                    <li>আত্মীয়-স্বজনদের গুরুত্বপূর্ণ পদে নিয়োগ</li>
+                    <li>সেনাবাহিনীর মধ্যে অসন্তোষ ও জাতীয় রক্ষী বাহিনীর প্রতি পক্ষপাত</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <h2>১৫ আগস্ট ১৯৭৫: হত্যাকাণ্ডের প্রেক্ষাপট</h2>
     
-   <p style="font-size:35px; text-align:center; line-height: 30px; margin-bottom: 20px;  padding: 15px 35px 15px 35px; color: CYAN;">EFFECT PRO </p>
-<p style="font-size:18px; color: blue;"> VERSION : 1.0 (last update on 18/8/2024) </p>
-        <input type="file" id="upload" accept="image/*">
-        <div class="canvas-container">
-            <canvas id="canvas"></canvas>
-        </div>
-        <div class="editor-menu">
-            <button class="menu-btn" data-option="canvas">Canvas</button>
-            <button class="menu-btn" data-option="filter">Filters</button>
-            <button class="menu-btn" data-option="adjust">Adjustments</button>
-            <button class="menu-btn" data-option="effect">Effects</button>
-            <button class="menu-btn" data-option="sticker">Stickers</button>
-            <button class="menu-btn" data-option="text">Text</button>
-            <button class="menu-btn" data-option="doodle">Doodle</button>
-            <button class="menu-btn" data-option="crop">Crop</button>
-        </div>
-        <div class="controls" id="controls">
-            <!-- Dynamic controls will be loaded here -->
-        </div>
-       <button id="download">save image</button>
-    
+    <div class="criticism-box">
+        <h3>হত্যাকাণ্ডের মূল কারণসমূহ:</h3>
+        <ol>
+            <li><strong>রাজনৈতিক অস্থিরতা:</strong> একদলীয় শাসন, বিরোধীদমন ও গণতন্ত্র হরণ</li>
+            <li><strong>অর্থনৈতিক সংকট:</strong> দুর্ভিক্ষ ও দুর্নীতির ফলে জনগণের ক্ষোভ</li>
+            <li><strong>সেনাবাহিনীর অসন্তোষ:</strong> জাতীয় রক্ষী বাহিনীর প্রতি পক্ষপাত ও সেনা কর্মকর্তাদের অবহেলা</li>
+            <li><strong>প্রশাসনিক ব্যর্থতা:</strong> দুর্নীতি, আত্মীয়পোষণ ও স্বজনপ্রীতি</li>
+            <li><strong>সামাজিক বিভাজন:</strong> দুর্ভিক্ষকালীন বিলাসবহুল আচরণ ও সাধারণ মানুষের সাথে দূরত্ব</li>
+        </ol>
+        
+        <h3>ষড়যন্ত্রের বিবরণ:</h3>
+        <ul>
+            <li>সেনা কর্মকর্তাদের একটি দল (মেজর ফারুক, কর্নেল রশিদ, ডালিম, মোহিউদ্দিন) পরিকল্পনা করে</li>
+            <li>খন্দকার মোশতাক আহমেদসহ কিছু রাজনৈতিক নেতাদের সমর্থন</li>
+            <li>১৫ আগস্ট ভোরে ধানমন্ডি ৩২ নং বাড়িতে সশস্ত্র হামলা</li>
+            <li>বঙ্গবন্ধু ও তাঁর পরিবারের বেশিরভাগ সদস্য নিহত হন</li>
+        </ul>
+    </div>
 
-    <script src="script.js"></script>
+    <h2>পরিণতি ও ঐতিহাসিক মূল্যায়ন</h2>
+    <p>১৯৭৫ সালের ১৫ আগস্টের হত্যাকাণ্ড বাংলাদেশের ইতিহাসে একটি কালো অধ্যায়। এটি ছিল:</p>
+    <ul>
+        <li>গণতন্ত্রের পথে একটি বড় ধাক্কা</li>
+        <li>সামরিক শাসনের সূচনা</li>
+        <li>রাজনৈতিক সংস্কৃতিতে সহিংসতার প্রবেশ</li>
+        <li>একটি জাতির পিতার নির্মম হত্যাকাণ্ড</li>
+    </ul>
 
-
-       
-<p style="font-size:20px; text-align:center; line-height: 20px; margin-bottom: 20px;  padding: 15px 35px 15px 35px; color: gold;"> Site Developeing: BENGEL TIGER WEB DEVELOP TEAM </p>
-<p style="font-size:20px; text-align:center; line-height: 20px; margin-bottom: 20px;  padding: 15px 35px 15px 35px; color: blue;"> Site Developer : Ajmir Ahmed </p>
-<a href="contact2.html">Contact</a> 
-</div>
+    <div class="footer">
+        <p>এই তথ্যগুলো ঐতিহাসিক দলিল, গবেষণাপত্র ও প্রত্যক্ষদর্শীদের বিবরণ থেকে সংকলিত</p>
+        <p>© 2025 ইতিহাস গবেষণা কেন্দ্র</p>
+    </div>
 </body>
 </html>
+
+            
